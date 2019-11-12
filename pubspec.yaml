@@ -1,0 +1,37 @@
+name: aventura
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_local_notifications: ^0.6.0
+  path_provider: ^0.5.0+1
+  carousel_pro: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/colosseum/
+    - images/gwanghwamun/
+    - images/tajmahal/
+
+  fonts:
+    - family: Multilingual_Hand
+      fonts:
+        - asset: fonts/Multilingual-Hand.ttf
+
+    - family: Wooa
+      fonts:
+        - asset: fonts/wooa.ttf
